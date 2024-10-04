@@ -1,0 +1,402 @@
+<html>
+<head><title>Panaderia</title>
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+<style type="text/css">
+	:is(input,textarea):invalid{
+		background: red;
+		color: #fff;
+	}
+	::placeholder{
+		color: darkred;
+	}
+	p{
+		font-family: verdana;
+		font-size: 20px;
+	}
+	#para1{
+		text-align: center;
+		color: red;
+	}
+	/*div{
+		background-color: green;
+	}
+	div.first{
+		opacity: 0.1;
+	}
+	div.second{
+		opacity: 0.3;
+	}
+	div.third{
+		opacity: 0.6;
+	}*/
+
+	p.dotted {border-style: dotted;}
+	p.dashed {border-style: dashed;}
+	p.solid {border-style: double;}
+
+	p{
+		border-top-style: dotted;
+		border-right-style:solid;
+		border-bottom-style: dotted;
+		border-left-style: solid;
+	}
+
+	div{
+		border: 1px solid black;
+		margin: 25px 50px 75px 100px;
+		background-color:lightblue;
+	}
+#customers{
+	font-family:Arial, Helvetica, sans-serif;
+	border-collapse: collapse ;
+	width: 100%;
+}
+#customers td, #customers th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+#customers tr:nth-child(even){ background-color:#f2f2f2; }
+
+#customers tr:hover{background-color: #ddd;}
+
+#customers th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
+
+div.ex1{
+	width: 500px;
+	margin: auto;
+	border: 3px solid #73AD21;
+}
+div.ex2{
+	max-width: 900px;
+	margin: auto;
+	border: 3px solid #73AD21;
+}
+
+</style>
+
+</head>
+<meta charset="utf-8">
+
+<body>
+<!--<body background="Gojo Satoru.jpeg">-->
+	<!-- body bgcolor="yellow"> para colocar el color de fondo
+
+	Hola Mundo
+	<a href="index.html#alumnos">Alumno</a>
+	<a href="index.html#profesores">Profesores</a>-->
+	<!--P es para parrafo-->
+	<p>Hola Mundo</p><br>
+	<b>Hola mundo</b><br><!--es para salto de linea-->
+	<i>Hola mundo</i><br> 
+	<u>Hola mundo</u><br>
+
+	<p align="left">Hola Mundo</p><br>
+	<p align="center">Hola Mundo</p><br>
+	<p align="right">Hola Mundo</p><br>
+
+	<p align="left">Hola Mundo</p><br>
+	<p align="left">Hola Mundo</p><br>
+	<p align="left">Hola Mundo</p><br>
+	<p align="left">Hola Mundo</p><br>
+
+	<div align="left">
+		<p>Hola mundo</p><br>
+		<p>Hola mundo</p><br>
+		<p>Hola mundo</p><br>
+		<p>Hola mundo</p><br>
+	</div>
+	<h1> Hola mundo </h1>
+	<h2>Hola mundo</h2>
+	<h3>Hola mundo</h3>
+	<h4>Hola mundo</h4>
+	<h5>Hola mundo</h5>
+	<h6>Hola mundo</h6>
+
+	<h1>5 <sup>3</sup></h1>
+	<h1>H <sub>2</sub>O</h1>
+
+	<h1>La <sup>13</sup>CC<sub>3</sub>H<sub>4<sub>C1NOS es un heterociclo alergeno enriquecido</h1>
+	<font face="Comic Sans Ms, arial, verdana" size="10">Hola Mundo</font>
+
+	<table border="2">
+		<tr>
+			<td><p align="center">Nombre</p></td>
+			<td><p align="center">E-mail</p></td>
+		</tr>
+		<tr>
+			<td>Yeni Elda Garci&aacute; Ram&oacute;n</td><!--al momwnto de poner acento se utiliza -->
+			<td>Yenigarcia1515@gmail.com</td>
+		</tr>
+
+	</table>
+	<a name="alumno"></a>
+
+	<table border="2" width="80%" align="center">
+		<tr>
+			<td><p align="center">Nombre</p></td>
+			<td><p align="center">E-mail</p></td>
+		</tr>
+		<tr>
+			<td>Yeni Elda Garci&aacute; Ram&oacute;n</td><!--al momwnto de poner acento se utiliza -->
+			<td>Yenigarcia1515@gmail.com</td>
+		</tr>
+	</table>
+
+	<ul type="square"><!-- para orden de lista -->
+		<li>Enero</li>
+		<li>Febrero</li>
+		<li>Marzo</li>
+	</ul>
+
+
+<ul type="circle"><!-- los tipos de como querer la forma viñetas -->
+		<li>Enero</li>
+		<li>Febrero</li>
+		<li>Marzo</li>
+	</ul>
+
+	<ul type="disc"><!-- los tipos de como querer la forma viñetas -->
+		<li>Enero</li>
+		<li>Febrero</li>
+		<li>Marzo</li>
+	</ul>
+
+	<ol><!-- la lista ordenada -->
+		<li>Enero</li>
+		<li>Febrero</li>
+		<li>Marzo</li>
+	</ol>
+
+
+	<ol type="1"><!-- la lista ordenada -->
+		<li>Enero</li>
+		<li>Febrero</li>
+		<li>Marzo</li>
+	</ol>
+
+
+	<ol type="I"><!-- tipo de orden seria en numero romano -->
+		<li>Enero</li>
+		<li>Febrero</li>
+		<li>Marzo</li>
+	</ol>
+
+	<ol type="i" start="10"><!-- en numero romano, pero esta pidiendpo que lo cuenta hasta ek numero 10 -->
+		<li>Enero</li>
+		<li>Febrero</li>
+		<li>Marzo</li>
+	</ol>
+		
+		<dl>
+			<dt>IMSS</dt>
+			<dd>Instituto Mexicano del Seguro Social</dd>
+			<dt>TecNM</dt>
+			<dd>Tecnologico Nacional de México</dd>
+			<dt>ITT</dt>
+			<dd>Instituto Tecnologico de Tuxtepec</dd>
+		</dl>
+
+	<ul>
+		<li>México</li>
+		<ol>
+			<li>Oaxaca</li>
+			<li>Veracruz</li>
+		</ol>
+		<li>Colombia</li>
+		<ol>
+			<li>Barranquilla</li>
+			<li>Cali</li>
+		</ol>
+	</ul>	
+
+<a href="ejemplo2.html">Ejemplo</a><br><br><br>
+<a name="Profesores"></a>
+
+<a href="http://www.google.com">Google</a><br>
+<a href="https://mail.google.com/mail/u/0/#inbox">Gmail de Contactos</a><br>
+<a href="https://colorearte.cl/wp-content/uploads/2017/06/Teoria-del-Color.pdf">Apuntes</a><br>
+<a href="ejemplo2.html"></a>
+<img src="Gojo Satoru.jpeg" width="12%" height="40%"></a>
+
+<div align="center">
+	<img src="Gojo Satoru.jpeg" width="12%" height="40%"></a><!--para poner en el centro-->
+</div>
+
+<table cellspacing="10" cellpadding="10" border="0">
+<tr>
+	<td align="center" bgcolor="green"> Celda de la Tabla Principal</td>
+	<td align="center">
+		<table cellspacing="10" cellpadding="10" border="0">
+			<tr>
+				<td>Tabla anidada, Celda 1</td>
+				<td>Tabla anidada, Celda 2</td>
+			</tr>
+			<tr>
+				<td bgcolor="yellow">Tabla anidada,Celda 3</td>
+				<td>Tabla anidada, Celda 4</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+<form>
+	<input type="text" name="Nombre" value="Benito Juarez"><br>
+	<input type="password" name="cve"><br> 
+	<textarea name="comentario" rows="10" cols="30"> Buzón de quejas y sugerencias</textarea><br><br><br>
+	<select name="Estaciones">
+		<option>Primavera</option>
+	    <option selected="">Verano</option>
+	    <option>Otoño</option>
+	    <option>Invierno</option>
+	</select><br>
+	<input type="radio" name="Estacion2" value="1">primavera<br>
+	<input type="radio" name="Estacion2" value="2">Verano<br>
+	<input type="radio" name="Estacion2" value="3" checked="">Otoño<br>
+	<input type="radio" name="Estacion2" value="4">Invierno<br>
+
+	<input type="checkbox" name="Estacion2" value="1">primavera<br>
+	<input type="checkbox" name="Estacion2" value="2">Verano<br>
+	<input type="checkbox" name="Estacion2" value="3" checked="">Otoño<br>
+	<input type="checkbox" name="Estacion2" value="4">Invierno<br>
+
+	<input type="submit" name="Enviar">
+	<input type="reset" name="Limpiar">
+
+
+</form>
+
+<video width="220" height="200" controls="">
+	<source src="www.mp4" type="video/mp4">
+</video><br><br>
+
+<iframe width="420" height="315" src="https://youtu.be/8t1c32huiBo?si=QhmZHXxm7r0dO8uP" hidden=""></iframe>
+
+<form name="formulario" method="post" action="ejemploPost2.php">
+	Nombre: <input type="text" name="nombre" value="">
+
+	<input type="submit" /> 
+</form>
+
+<form action="procesar_formulario.php" method="post">
+	<label for="nombre">Nombre: </label>
+	<input type="text" id="nombre" name="nombre"><br>
+	<label for="correo">Correo Electrónico</label>
+	<input type="email" id="correo" name="correo"><br>
+	<input type="submit" name="Enviar">
+</form>
+
+<form>
+	<input type="text" name="username" placeholder="ManzDev" minlength="5" maxlength="40" required pattern="[A-Za-z0-9]+">
+	<input type="text" name="username" placeholder="ManzDev" required pattern="[A-Za-z0-9]{5,40}">
+	<input type="submit" value="Enviar"><br>
+
+	<input type="text" name="model" placeholder="Su modelo de coche" required pattern="(A|a)(1|3|4|15)" title="Modelos posibles: A1, A3, A4 Y A15"><br>
+	<input type="submit" value="Enviar"><br>
+</form>
+
+Selecciona la fecha deseada:
+<input type="date" value="2024-02-25"><br>
+Selecciona la fecha deseada:
+<input type="date" min="2024-02-25" max="2024-12-25">
+<input type="submit" value="Enviar"><br>
+<input type="date" value="2024-09-22" min="2024-02-25" max="2024-12-25" step="2"><br>
+selecciona la fecha deseada:
+<input type="month" value="2024-11" min="2024-02" max="2024-12" step="2"><br>
+Selecciona la fecha deseada:
+<input type="week" value="2024-W19" min="2024-W13" max="2024-W36" step="2">
+Selecciona la fecha deseada:
+<input type="time" value="11:00" min="09:00" max="22:00" step="30">
+
+<h1>Hola a todos</h1>
+<p>Hola a todos</p>
+<p id="para1"> Hola a todos 1</p>
+<p>Hola a todos</p>
+<h1 style="color:blue;text-align: center;">Hola a todos desde aqui</h1>
+
+<form name="formularioDatos" method="post" action="volcil.php" >
+	<p>CÁLCULO DEL VOLUMEN DE UN CILINDRO</p>
+	<br/>
+	Introduzca el diametro en metros: <input type="text" name="diam" value="">
+<br/><br/>
+    Introduzca la altura en metros: <input type="text" name="altu" value="">
+ <br/><br/>
+ <input value="Calcular" type="submit"/>   
+
+
+<h2 style="background-color: rgb(255, 0, 0);">rgb(255,0,0)</h2>
+<h2 style="background-color: #ff0000;">#ff0000</h2>
+
+<div class="first">
+	<h1>opacity 0.1</h1>
+</div>
+
+<div class="second">
+	<h1>opacity 0.3</h1>
+</div>
+
+<div class="third">
+	<h1>opacity 0.6</h1>
+</div>
+
+<div>
+	<h1>opacity 1(default)</h1>
+</div>
+
+<p class="dotted">A dotted border.</p>
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+
+<p>2 different border styles.</p>
+
+<div>This div element has a top margin of 25px, a right margin of 50px, a botton margin of 75 px, and a left margin de 100px </div>
+
+<i class="fa fa-address-book-o" aria-hidden="true"></i>
+<i class="fa fa-car"></i>
+<i class="fa fa-car" style="font-size: 48px;"></i>
+<i class="fa fa-car" style="font-size:60px; color: red;"></i>
+
+<table id="customers">
+	<tr>
+		<th>Company</th>
+		<th>Contact</th>
+		<th>Country</th>
+	</tr>
+	<tr>
+		<td>Alfreds FutterKiste</td>
+		<td>Maria Anders</td>
+		<td>Germany</td>
+	</tr>
+	<tr>
+		<td>Berglunds snabbkop</td>
+		<td>Christina berglund</td>
+		<td>Sweden</td>
+	</tr>
+	<tr>
+		<td>Centro comercial Moctezuma</td>
+		<td>Francisco chang</td>
+		<td>Mexico</td>
+	</tr>
+	
+</table>
+
+<h2>CSS Max-width</h2>
+<div class="ex1">This div element has width: 500px;</div>
+<br>
+
+<div class="ex2">This div element has max-width: 500px;</div>
+
+
+</form>
+
+</body>
+</html>
